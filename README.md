@@ -13,7 +13,6 @@
 1. [Installation](#installation)
 2. [Data Preparation](#data-preparation)
 3. [Web Server](#web-server)
-4. [Evaluation](#evaluation)
 
 ## Installation
 
@@ -50,15 +49,5 @@ A web-based interface for EMT-Kcr is available, allowing you to input protein se
 - Input a protein sequence or upload a FASTA file.
 - Click **Submit** to view the predicted Kcr sites.
 
-## Evaluation
 
-EMT-Kcr has been rigorously evaluated using various datasets from multiple species. Key evaluation metrics include:
-
-- **Accuracy (ACC)**
-- **Precision (Pre)**
-- **Recall (Rec)**
-- **F1 Score**
-- **Matthew’s Correlation Coefficient (MCC)**
-
-The tool has outperformed several state-of-the-art models like DeepCap-Kcr, demonstrating high predictive power across species.
 
