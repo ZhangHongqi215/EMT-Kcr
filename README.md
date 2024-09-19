@@ -37,7 +37,6 @@ To use EMT-Kcr, follow these installation steps:
 EMT-Kcr accepts protein sequences as input. You can format your data as follows:
 
 - Each sequence should be in the **FASTA** format.
-- The tool expects the protein sequences to contain valid amino acid residues.
 
 To prepare your dataset, place your input files in the `data/` directory or the specified location in the configuration.
 
