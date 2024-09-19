@@ -1,4 +1,3 @@
-
 # EMT-Kcr: A Bioinformatics Tool for Lysine Crotonylation Site Identification
 
 **EMT-Kcr** is a novel bioinformatics tool designed to identify lysine crotonylation (Kcr) sites in proteins using advanced deep learning techniques. It integrates the **ESM2 protein language model** with **multi-task auxiliary learning** to improve prediction accuracy across multiple species. This tool can aid researchers in understanding protein post-translational modifications (PTMs), which play key roles in biological processes, disease diagnosis, and drug development.
@@ -7,7 +6,6 @@
 
 - **Multi-task Auxiliary Learning**: Enhances prediction accuracy by simultaneously training on multiple tasks.
 - **ESM2 Protein Language Model**: Leverages a state-of-the-art protein language model for superior feature extraction.
-- **Visualization and Interpretability**: Provides visualization techniques like t-SNE and attention mechanisms to offer insights into the spatial relationship of Kcr sites.
 - **Cross-Species Generalization**: Demonstrates high accuracy across various species, including humans, plants, animals, and microorganisms.
 - **User-Friendly Web Interface**: Allows easy input of protein sequences to obtain predictions via a web server.
 
