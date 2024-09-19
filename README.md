@@ -31,13 +31,6 @@ To use EMT-Kcr, follow these installation steps:
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
 
-3. **Install Required Dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Download ESM2 Pretrained Model**:
-   Download the ESM2 model from the provided Facebook AI Model Zoo link and place it in the appropriate directory as specified in the code.
 
 ## Data Preparation
 
