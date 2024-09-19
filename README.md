@@ -14,10 +14,8 @@
 ## Table of Contents
 1. [Installation](#installation)
 2. [Data Preparation](#data-preparation)
-3. [Usage](#usage)
-4. [Web Server](#web-server)
-5. [Evaluation](#evaluation)
-6. [References](#references)
+3. [Web Server](#web-server)
+4. [Evaluation](#evaluation)
 
 ## Installation
 
@@ -52,27 +50,6 @@ EMT-Kcr accepts protein sequences as input. You can format your data as follows:
 
 To prepare your dataset, place your input files in the `data/` directory or the specified location in the configuration.
 
-## Usage
-
-1. **Run Predictions**:
-
-   After preparing your data and setting up the environment, you can run predictions using the following command:
-
-   ```bash
-   python run_emt_kcr.py --input data/protein_sequences.fasta --output results/predictions.csv
-   ```
-
-   The results will be saved as a CSV file in the output directory with the predicted Kcr sites and associated probabilities.
-
-2. **Visualization**:
-   
-   To visualize the results and gain insights into the model's attention mechanisms:
-   ```bash
-   python visualize.py --input results/predictions.csv
-   ```
-
-   This will generate attention maps and t-SNE visualizations of the protein sequences.
-
 ## Web Server
 
 A web-based interface for EMT-Kcr is available, allowing you to input protein sequences and get Kcr site predictions. Visit:
@@ -95,6 +72,3 @@ EMT-Kcr has been rigorously evaluated using various datasets from multiple speci
 
 The tool has outperformed several state-of-the-art models like DeepCap-Kcr, demonstrating high predictive power across species.
 
-## References
-
-For further information, please refer to the [research article](https://www.sciencedirect.com/science/article/abs/pii/S0141813024001147) and associated documentation.
